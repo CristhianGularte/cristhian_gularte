@@ -8,7 +8,7 @@ html{
 
 body{
   margin:0;
-  background:#171619;
+  background:#242225;
   color:#f3f0f2;
   font-family:Arial,Helvetica,sans-serif;
 }
@@ -26,7 +26,7 @@ a{
 .hero{
   min-height:86vh;
   position:relative;
-  background:#19171b url(portada.jpg) center/cover no-repeat;
+  background:#242225 url(portada.jpg) center/cover no-repeat;
   display:flex;
   flex-direction:column;
 }
