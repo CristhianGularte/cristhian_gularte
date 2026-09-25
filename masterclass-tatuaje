@@ -1,1 +1,228 @@
+<!doctype html>
+<html lang="es">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Masterclass de Tatuaje 1 a 1 en Santiago | Cristhian Gularte</title>
+
+  <meta name="description"
+        content="Masterclass privada de tatuaje 1 a 1 con Cristhian Gularte en Santiago de Chile. Jornada intensiva presencial de 6 horas con formación personalizada y práctica en piel sintética.">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <nav style="padding:28px 5vw;">
+    <a class="brand" href="index.html">CRISTHIAN GULARTE</a>
+    <a href="index.html">VOLVER AL PORTAFOLIO</a>
+  </nav>
+
+
+  <main>
+
+    <!-- PRESENTACIÓN -->
+    <section style="
+      max-width:950px;
+      margin:0 auto;
+      padding:100px 5vw 70px;
+      text-align:center;
+    ">
+
+      <p class="eyebrow">FORMACIÓN PRESENCIAL · SANTIAGO DE CHILE</p>
+
+      <h1 style="
+        font-size:clamp(42px,7vw,82px);
+        line-height:1;
+        margin:20px 0 30px;
+        letter-spacing:-.04em;
+      ">
+        MASTERCLASS PRIVADA 1 A 1
+      </h1>
+
+      <p style="
+        max-width:720px;
+        margin:0 auto;
+        font-size:19px;
+        line-height:1.7;
+        color:#cbc5ce;
+      ">
+        Una jornada intensiva de tatuaje de aproximadamente 6 horas,
+        diseñada para trabajar de manera personalizada y enfocarnos
+        directamente en tu técnica.
+      </p>
+
+    </section>
+
+
+    <!-- EXPERIENCIA -->
+    <section style="
+      max-width:900px;
+      margin:0 auto;
+      padding:60px 5vw;
+    ">
+
+      <p class="eyebrow">FORMACIÓN PERSONALIZADA</p>
+
+      <h2 style="font-size:clamp(32px,5vw,55px);">
+        Un día completo trabajando conmigo
+      </h2>
+
+      <p style="color:#aaa2ad; line-height:1.8;">
+        Soy Cristhian Gularte, tatuador y artista visual con 16 años
+        de experiencia.
+      </p>
+
+      <p style="color:#aaa2ad; line-height:1.8;">
+        Esta masterclass está pensada como una experiencia de formación
+        individual, donde vamos a trabajar paso a paso sobre los aspectos
+        técnicos y prácticos del tatuaje.
+      </p>
+
+      <p style="color:#aaa2ad; line-height:1.8;">
+        Al ser una clase privada 1 a 1, puedo observar directamente
+        tu forma de trabajar, corregir detalles y responder tus dudas
+        durante toda la jornada.
+      </p>
+
+    </section>
+
+
+    <!-- PROGRAMA -->
+    <section style="
+      max-width:900px;
+      margin:0 auto;
+      padding:60px 5vw;
+    ">
+
+      <p class="eyebrow">PROGRAMA DE LA MASTERCLASS</p>
+
+      <h2 style="font-size:clamp(32px,5vw,55px);">
+        ¿Qué vamos a trabajar?
+      </h2>
+
+      <div style="
+        margin-top:40px;
+        line-height:2;
+        color:#cbc5ce;
+        font-size:17px;
+      ">
+
+        <p>01 — Materiales y equipamiento</p>
+
+        <p>02 — Preparación de la mesa de trabajo</p>
+
+        <p>03 — Higiene y contaminación cruzada</p>
+
+        <p>04 — Ajuste de voltaje y tipos de agujas</p>
+
+        <p>05 — Demostración de técnicas en piel sintética</p>
+
+        <p>06 — Práctica supervisada en piel sintética</p>
+
+        <p>07 — Diseño y preparación del esténcil</p>
+
+        <p>08 — Cuidados posteriores del tatuaje</p>
+
+        <p>09 — Cómo fotografiar y grabar correctamente tu trabajo</p>
+
+      </div>
+
+    </section>
+
+
+    <!-- MODALIDAD -->
+    <section style="
+      max-width:900px;
+      margin:0 auto;
+      padding:60px 5vw;
+      text-align:center;
+    ">
+
+      <p class="eyebrow">MODALIDAD</p>
+
+      <h2 style="font-size:clamp(32px,5vw,55px);">
+        6 horas · Presencial · 1 a 1
+      </h2>
+
+      <p style="
+        max-width:700px;
+        margin:20px auto;
+        color:#aaa2ad;
+        line-height:1.8;
+      ">
+        La masterclass se realiza presencialmente en
+        <strong>Santiago de Chile, Macul</strong>.
+      </p>
+
+      <p style="
+        max-width:700px;
+        margin:20px auto;
+        color:#aaa2ad;
+        line-height:1.8;
+      ">
+        Al finalizar la jornada recibirás un
+        <strong>certificado de asistencia.</strong>
+      </p>
+
+    </section>
+
+
+    <!-- PRECIO -->
+    <section style="
+      max-width:900px;
+      margin:70px auto 100px;
+      padding:70px 5vw;
+      text-align:center;
+      background:radial-gradient(circle at 50% 100%,rgba(112,30,157,.22),transparent 65%);
+    ">
+
+      <p class="eyebrow">MASTERCLASS PRIVADA</p>
+
+      <h2 style="
+        font-size:clamp(40px,6vw,68px);
+        margin:15px 0;
+      ">
+        $239.990 CLP
+      </h2>
+
+      <p style="
+        max-width:650px;
+        margin:20px auto;
+        color:#aaa2ad;
+        line-height:1.7;
+      ">
+        Jornada presencial de aproximadamente 6 horas.
+      </p>
+
+      <p style="
+        max-width:650px;
+        margin:20px auto 30px;
+        color:#aaa2ad;
+        line-height:1.7;
+      ">
+        Para reservar la fecha se realiza un abono de
+        <strong>$50.000 CLP</strong>, que se descuenta del valor total
+        de la masterclass.
+      </p>
+
+      <a class="cta"
+         href="https://wa.me/56958181854?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20la%20Masterclass%20Privada%201%20a%201."
+         target="_blank">
+        CONSULTAR DISPONIBILIDAD
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    © 2026 Cristhian Gularte · Masterclass de Tatuaje
+  </footer>
+
+</body>
+</html>
