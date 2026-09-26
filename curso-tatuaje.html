@@ -2,214 +2,381 @@
 <html lang="es">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRC2QV8T5R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-GRC2QV8T5R');
-</script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRC2QV8T5R"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-GRC2QV8T5R');
+
+    document.documentElement.classList.add('js');
+  </script>
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
 
   <title>Curso de Tatuaje Online | Cristhian Gularte</title>
 
   <meta name="description"
         content="Curso de tatuaje online con Cristhian Gularte. Aprende el proceso completo de un tatuaje real: diseño, esténcil, líneas, sombras, color, saturación, cuidados y presentación final.">
 
+  <meta name="theme-color" content="#0b090e">
+
+  <!-- Vista previa al compartir el enlace (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Cristhian Gularte">
+  <meta property="og:title" content="Curso de Tatuaje Online | Cristhian Gularte">
+  <meta property="og:description" content="Curso de tatuaje online con Cristhian Gularte. Aprende el proceso completo de un tatuaje real: diseño, esténcil, líneas, sombras, color, saturación, cuidados y presentación final.">
+  <meta property="og:url" content="https://cristhiangularte.github.io/cristhian_gularte/curso-tatuaje.html">
+  <meta property="og:image" content="https://cristhiangularte.github.io/cristhian_gularte/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Cristhian Gularte, tatuador y artista visual en Santiago de Chile">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://cristhiangularte.github.io/cristhian_gularte/curso-tatuaje.html">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&family=Manrope:wght@300;400;500;600;700&display=swap">
+
   <link rel="stylesheet" href="styles.css">
+
+  <script src="main.js" defer></script>
+
 </head>
+
 
 <body>
 
-  <!-- NAVEGACIÓN -->
-  <nav style="padding:28px 5vw;">
-    <a class="brand" href="index.html">CRISTHIAN GULARTE</a>
-    <a href="index.html">VOLVER AL PORTAFOLIO</a>
-  </nav>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
 
-  <!-- PRESENTACIÓN DEL CURSO -->
-  <main>
-
-    <section style="
-      max-width:950px;
-      margin:0 auto;
-      padding:100px 5vw 70px;
-      text-align:center;
-    ">
-
-      <p class="eyebrow">CURSO DE TATUAJE ONLINE</p>
-
-      <h1 style="
-        font-size:clamp(42px,7vw,82px);
-        line-height:1;
-        margin:20px 0 30px;
-        letter-spacing:-.04em;
-      ">
-        De la idea a la piel.
-      </h1>
-
-      <p style="
-        max-width:720px;
-        margin:0 auto;
-        font-size:19px;
-        line-height:1.7;
-        color:#cbc5ce;
-      ">
-        Aprende mi proceso completo de tatuaje trabajando sobre una persona real.
-        Desde la preparación y el diseño hasta el tatuaje terminado.
-      </p>
-
-    </section>
+  <!-- ÍCONOS (se reutilizan con <use href="#...">) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.82 9.82 0 0 1 6.99 2.9 9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/>
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <rect x="3" y="3" width="18" height="18" rx="5.2"/>
+      <circle cx="12" cy="12" r="4.2"/>
+      <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5v14M6 13l6 6 6-6"/>
+    </symbol>
+  </svg>
 
 
-    <!-- EXPERIENCIA -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-    ">
+  <!-- =========================
+       ENCABEZADO
+  ========================== -->
 
-      <p class="eyebrow">16 AÑOS DE EXPERIENCIA</p>
+  <header class="site-header">
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        Un proceso real. Sin esconder pasos.
-      </h2>
+    <div class="container header-inner">
 
-      <p style="color:#aaa2ad; line-height:1.8;">
-        Soy Cristhian Gularte, tatuador y artista visual.
-        En este curso te voy a mostrar mi proceso completo realizando
-        una pieza real, explicando las decisiones y técnicas que utilizo
-        durante cada etapa del tatuaje.
-      </p>
+      <a class="brand" href="index.html">
+        Cristhian Gularte
+      </a>
 
-      <p style="color:#aaa2ad; line-height:1.8;">
-        No se trata solamente de ver el resultado final.
-        Vas a acompañar el proyecto desde la idea inicial hasta
-        la presentación del tatuaje terminado.
-      </p>
+      <button class="menu-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu"
+              aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </button>
 
-    </section>
+      <nav class="nav" id="menu" aria-label="Principal">
+
+        <a class="nav-link" href="index.html#portfolio">Portafolio</a>
+        <a class="nav-link" href="index.html#private-experience">Private Experience</a>
+        <a class="nav-link" href="index.html#formacion">Formación</a>
+        <a class="nav-link" href="index.html#contacto">Contacto</a>
+
+        <a class="btn btn-primary btn-sm"
+           href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20un%20tatuaje"
+           target="_blank"
+           rel="noopener"
+           onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'menu_curso'});">
+          <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Agendar
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
 
 
-    <!-- CONTENIDO -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-    ">
+  <main id="contenido">
 
-      <p class="eyebrow">QUÉ VAS A APRENDER</p>
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        Mi proceso completo paso a paso
-      </h2>
+    <!-- =========================
+         PRESENTACIÓN DEL CURSO
+    ========================== -->
 
-      <div style="
-        margin-top:40px;
-        line-height:2;
-        color:#cbc5ce;
-        font-size:17px;
-      ">
+    <section class="page-hero">
 
-        <p>01 — Preparación del espacio de trabajo y bioseguridad</p>
+      <div class="container center hero-anim">
 
-        <p>02 — Diseño y preparación del proyecto</p>
+        <div>
+          <span class="badge static">Próximamente</span>
+        </div>
 
-        <p>03 — Creación y colocación del esténcil</p>
+        <p class="eyebrow">
+          Curso de tatuaje online
+        </p>
 
-        <p>04 — Líneas y estructura del tatuaje</p>
+        <h1 class="display-xl">
+          De la idea <em>a la piel.</em>
+        </h1>
 
-        <p>05 — Sombras y profundidad</p>
+        <p class="lead">
+          Aprende mi proceso completo de tatuaje trabajando sobre una persona real.
+          Desde la preparación y el diseño hasta el tatuaje terminado.
+        </p>
 
-        <p>06 — Aplicación y saturación del color</p>
+        <div class="page-hero-actions">
 
-        <p>07 — Detalles y terminaciones</p>
+          <a class="btn btn-primary" href="#programa">
+            Qué vas a aprender
+            <svg class="arrow" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+          </a>
 
-        <p>08 — Cuidados y proceso de cicatrización</p>
+          <a class="btn btn-ghost"
+             href="https://www.instagram.com/uruguaytattoo/"
+             target="_blank"
+             rel="noopener">
+            <svg aria-hidden="true"><use href="#i-instagram"/></svg>
+            Seguir en Instagram
+          </a>
 
-        <p>09 — Fotografía, video y presentación final</p>
+        </div>
 
       </div>
 
     </section>
 
 
-    <!-- PROYECTO REAL -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-      text-align:center;
-    ">
+    <!-- =========================
+         EXPERIENCIA
+    ========================== -->
 
-      <p class="eyebrow">PROYECTO REAL</p>
+    <section class="section">
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        Vas a ver un tatuaje de principio a fin
-      </h2>
+      <div class="container story">
 
-      <p style="
-        max-width:700px;
-        margin:20px auto;
-        color:#aaa2ad;
-        line-height:1.8;
-      ">
-        El curso está construido alrededor de una sesión real.
-        Vas a poder observar cómo desarrollo el proyecto,
-        cómo trabajo sobre la piel y cómo resuelvo cada etapa
-        hasta llegar al resultado final.
-      </p>
+        <div class="stat reveal">
+          <span class="stat-number">16</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+
+        <div class="story-copy reveal">
+
+          <h2 class="display">
+            Un proceso real. <em>Sin esconder pasos.</em>
+          </h2>
+
+          <p>
+            Soy Cristhian Gularte, tatuador y artista visual.
+            En este curso te voy a mostrar mi proceso completo realizando
+            una pieza real, explicando las decisiones y técnicas que utilizo
+            durante cada etapa del tatuaje.
+          </p>
+
+          <p>
+            No se trata solamente de ver el resultado final.
+            Vas a acompañar el proyecto desde la idea inicial hasta
+            la presentación del tatuaje terminado.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTENIDO
+    ========================== -->
+
+    <section class="section" id="programa">
+
+      <div class="container">
+
+        <div class="section-head reveal">
+
+          <p class="eyebrow">
+            Qué vas a aprender
+          </p>
+
+          <h2 class="display">
+            Mi proceso completo <em>paso a paso</em>
+          </h2>
+
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal"><span class="step-num" aria-hidden="true">01</span><span class="step-title">Preparación del espacio de trabajo y bioseguridad</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">02</span><span class="step-title">Diseño y preparación del proyecto</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">03</span><span class="step-title">Creación y colocación del esténcil</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">04</span><span class="step-title">Líneas y estructura del tatuaje</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">05</span><span class="step-title">Sombras y profundidad</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">06</span><span class="step-title">Aplicación y saturación del color</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">07</span><span class="step-title">Detalles y terminaciones</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">08</span><span class="step-title">Cuidados y proceso de cicatrización</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">09</span><span class="step-title">Fotografía, video y presentación final</span></li>
+        </ol>
+
+      </div>
 
     </section>
 
 
-    <!-- PRÓXIMAMENTE -->
-    <section style="
-      max-width:900px;
-      margin:70px auto 100px;
-      padding:70px 5vw;
-      text-align:center;
-      background:radial-gradient(circle at 50% 100%,rgba(112,30,157,.22),transparent 65%);
-    ">
+    <!-- =========================
+         PROYECTO REAL
+    ========================== -->
 
-      <p class="eyebrow">PRÓXIMAMENTE</p>
+    <section class="section glow">
 
-      <h2 style="
-        font-size:clamp(38px,6vw,65px);
-        margin:15px 0;
-      ">
-        Curso de Tatuaje Online
-      </h2>
+      <div class="container statement center reveal">
 
-      <p style="
-        max-width:650px;
-        margin:20px auto;
-        color:#aaa2ad;
-        line-height:1.7;
-      ">
-        El curso estará disponible próximamente.
-        Estoy preparando una formación compacta, práctica y basada
-        completamente en mi experiencia trabajando sobre proyectos reales.
-      </p>
+        <p class="eyebrow">
+          Proyecto real
+        </p>
 
-      <a class="cta"
-         href="https://www.instagram.com/uruguaytattoo/"
-         target="_blank">
-        SEGUIR EN INSTAGRAM
-      </a>
+        <h2 class="display">
+          Vas a ver un tatuaje <em>de principio a fin</em>
+        </h2>
+
+        <p class="lead">
+          El curso está construido alrededor de una sesión real.
+          Vas a poder observar cómo desarrollo el proyecto,
+          cómo trabajo sobre la piel y cómo resuelvo cada etapa
+          hasta llegar al resultado final.
+        </p>
+
+      </div>
 
     </section>
+
+
+    <!-- =========================
+         PRÓXIMAMENTE
+    ========================== -->
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="cta-card center reveal">
+
+          <p class="eyebrow">
+            Próximamente
+          </p>
+
+          <h2 class="display">
+            Curso de Tatuaje Online
+          </h2>
+
+          <p class="lead">
+            El curso estará disponible próximamente.
+            Estoy preparando una formación compacta, práctica y basada
+            completamente en mi experiencia trabajando sobre proyectos reales.
+          </p>
+
+          <div class="cta-actions">
+
+            <a class="btn btn-primary"
+               href="https://www.instagram.com/uruguaytattoo/"
+               target="_blank"
+               rel="noopener">
+              <svg aria-hidden="true"><use href="#i-instagram"/></svg>
+              Seguir en Instagram
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
 
   </main>
 
 
-  <footer>
-    © 2026 Cristhian Gularte · Curso de Tatuaje Online
+  <!-- =========================
+       PIE DE PÁGINA
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <a class="brand" href="index.html">
+          Cristhian Gularte
+        </a>
+
+        <nav class="footer-nav" aria-label="Pie de página">
+          <a href="index.html#portfolio">Portafolio</a>
+          <a href="index.html#private-experience">Private Experience</a>
+          <a href="curso-tatuaje.html" aria-current="page">Curso online</a>
+          <a href="masterclass-tatuaje.html">Masterclass 1 a 1</a>
+        </nav>
+
+        <div class="footer-social">
+
+          <a class="icon-link"
+             href="https://www.instagram.com/uruguaytattoo/"
+             target="_blank"
+             rel="noopener"
+             aria-label="Instagram">
+            <svg aria-hidden="true"><use href="#i-instagram"/></svg>
+          </a>
+
+          <a class="icon-link"
+             href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20un%20tatuaje"
+             target="_blank"
+             rel="noopener"
+             aria-label="WhatsApp"
+             onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'footer_curso'});">
+            <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          </a>
+
+        </div>
+
+      </div>
+
+      <p class="footer-bottom">
+        © 2026 Cristhian Gularte · Curso de Tatuaje Online
+      </p>
+
+    </div>
+
   </footer>
 
+
 </body>
+
 </html>

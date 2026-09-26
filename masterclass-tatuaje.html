@@ -2,254 +2,451 @@
 <html lang="es">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRC2QV8T5R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-GRC2QV8T5R');
-</script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRC2QV8T5R"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-GRC2QV8T5R');
+
+    document.documentElement.classList.add('js');
+  </script>
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
 
   <title>Masterclass de Tatuaje 1 a 1 en Santiago | Cristhian Gularte</title>
 
   <meta name="description"
         content="Masterclass privada de tatuaje 1 a 1 con Cristhian Gularte en Santiago de Chile. Formación presencial de aproximadamente 6 horas con práctica supervisada en piel sintética.">
 
+  <meta name="theme-color" content="#0b090e">
+
+  <!-- Vista previa al compartir el enlace (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Cristhian Gularte">
+  <meta property="og:title" content="Masterclass de Tatuaje 1 a 1 en Santiago | Cristhian Gularte">
+  <meta property="og:description" content="Masterclass privada de tatuaje 1 a 1 con Cristhian Gularte en Santiago de Chile. Formación presencial de aproximadamente 6 horas con práctica supervisada en piel sintética.">
+  <meta property="og:url" content="https://cristhiangularte.github.io/cristhian_gularte/masterclass-tatuaje.html">
+  <meta property="og:image" content="https://cristhiangularte.github.io/cristhian_gularte/portada-masterclass.jpg">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:image:alt" content="Masterclass privada de tatuaje con Cristhian Gularte">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://cristhiangularte.github.io/cristhian_gularte/masterclass-tatuaje.html">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&family=Manrope:wght@300;400;500;600;700&display=swap">
+
   <link rel="stylesheet" href="styles.css">
+
+  <script src="main.js" defer></script>
+
 </head>
+
 
 <body>
 
-  <!-- NAVEGACIÓN -->
-  <nav style="padding:28px 5vw;">
-    <a class="brand" href="index.html">CRISTHIAN GULARTE</a>
-    <a href="index.html">VOLVER AL PORTAFOLIO</a>
-  </nav>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
 
-  <main>
-
-    <!-- PORTADA -->
-    <section style="
-      width:100%;
-      max-width:1200px;
-      margin:40px auto 20px;
-      padding:0 5vw;
-    ">
-
-      <img src="portada-masterclass.png"
-           alt="Masterclass privada de tatuaje con Cristhian Gularte"
-           style="
-             width:100%;
-             height:auto;
-             display:block;
-             border-radius:8px;
-           ">
-
-    </section>
-
-
-    <!-- PRESENTACIÓN -->
-    <section style="
-      max-width:950px;
-      margin:0 auto;
-      padding:70px 5vw;
-      text-align:center;
-    ">
-
-      <p class="eyebrow">
-        FORMACIÓN PRESENCIAL · SANTIAGO DE CHILE
-      </p>
-
-      <h1 style="
-        font-size:clamp(42px,7vw,82px);
-        line-height:1;
-        margin:20px 0 30px;
-        letter-spacing:-.04em;
-      ">
-        MASTERCLASS PRIVADA 1 A 1
-      </h1>
-
-      <p style="
-        max-width:720px;
-        margin:0 auto;
-        font-size:19px;
-        line-height:1.7;
-        color:#cbc5ce;
-      ">
-        Una jornada intensiva de formación en técnicas de tatuaje
-        de aproximadamente seis horas. La práctica se realiza en piel sintética.
-      </p>
-
-    </section>
+  <!-- ÍCONOS (se reutilizan con <use href="#...">) -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88a9.82 9.82 0 0 1 6.99 2.9 9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/>
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <rect x="3" y="3" width="18" height="18" rx="5.2"/>
+      <circle cx="12" cy="12" r="4.2"/>
+      <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/>
+    </symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5v14M6 13l6 6 6-6"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="8.5"/>
+      <path d="M12 7.5V12l3 2"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/>
+      <circle cx="12" cy="10" r="2.4"/>
+    </symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="3.6"/>
+      <path d="M5 20c.9-3.7 3.7-5.6 7-5.6s6.1 1.9 7 5.6"/>
+    </symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="9" r="5.5"/>
+      <path d="M8.6 13.4 7.3 21l4.7-2.5 4.7 2.5-1.3-7.6"/>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/>
+      <path d="M3.5 10h17M8 3v4M16 3v4"/>
+    </symbol>
+  </svg>
 
 
-    <!-- EXPERIENCIA -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-    ">
+  <!-- =========================
+       ENCABEZADO
+  ========================== -->
 
-      <p class="eyebrow">FORMACIÓN PERSONALIZADA</p>
+  <header class="site-header">
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        Una jornada intensiva para perfeccionar tu técnica
-      </h2>
+    <div class="container header-inner">
 
-      <p style="color:#aaa2ad; line-height:1.8;">
-        Soy Cristhian Gularte, tatuador y artista visual con 16 años
-        de experiencia.
-      </p>
+      <a class="brand" href="index.html">
+        Cristhian Gularte
+      </a>
 
-      <p style="color:#aaa2ad; line-height:1.8;">
-        Durante aproximadamente seis horas trabajaremos de forma
-        individual sobre piel sintética. Te mostraré mis técnicas
-        paso a paso, practicarás bajo mi supervisión y podremos
-        corregir detalles directamente durante la jornada.
-      </p>
+      <button class="menu-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="menu"
+              aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </button>
 
-      <p style="color:#aaa2ad; line-height:1.8;">
-        Al ser una formación privada 1 a 1, puedo observar directamente
-        tu forma de trabajar, ayudarte a corregir detalles y responder
-        tus dudas durante toda la experiencia.
-      </p>
+      <nav class="nav" id="menu" aria-label="Principal">
 
-    </section>
+        <a class="nav-link" href="index.html#portfolio">Portafolio</a>
+        <a class="nav-link" href="index.html#private-experience">Private Experience</a>
+        <a class="nav-link" href="index.html#formacion">Formación</a>
+        <a class="nav-link" href="index.html#contacto">Contacto</a>
+
+        <a class="btn btn-primary btn-sm"
+           href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20un%20tatuaje"
+           target="_blank"
+           rel="noopener"
+           onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'menu_masterclass'});">
+          <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Agendar
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
 
 
-    <!-- PROGRAMA -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-    ">
+  <main id="contenido">
 
-      <p class="eyebrow">PROGRAMA DE LA MASTERCLASS</p>
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        ¿Qué vamos a trabajar?
-      </h2>
+    <!-- =========================
+         PORTADA
+    ========================== -->
 
-      <div style="
-        margin-top:40px;
-        line-height:2;
-        color:#cbc5ce;
-        font-size:17px;
-      ">
+    <section class="page-hero split">
 
-        <p>01 — Materiales y equipamiento</p>
-        <p>02 — Preparación de la mesa de trabajo</p>
-        <p>03 — Higiene y contaminación cruzada</p>
-        <p>04 — Ajuste de voltaje y tipos de agujas</p>
-        <p>05 — Demostración de técnicas en piel sintética</p>
-        <p>06 — Práctica supervisada en piel sintética</p>
-        <p>07 — Diseño y preparación del esténcil</p>
-        <p>08 — Cuidados posteriores del tatuaje</p>
-        <p>09 — Cómo fotografiar y grabar correctamente tu trabajo</p>
+      <div class="container page-hero-grid">
+
+        <div class="hero-anim">
+
+          <p class="eyebrow">
+            Formación presencial · Santiago de Chile
+          </p>
+
+          <h1 class="display-xl">
+            Masterclass privada <em>1 a 1</em>
+          </h1>
+
+          <p class="lead">
+            Una jornada intensiva de formación en técnicas de tatuaje
+            de aproximadamente seis horas. La práctica se realiza en piel sintética.
+          </p>
+
+          <ul class="chips">
+            <li><svg aria-hidden="true"><use href="#i-clock"/></svg>6 horas</li>
+            <li><svg aria-hidden="true"><use href="#i-pin"/></svg>Presencial</li>
+            <li><svg aria-hidden="true"><use href="#i-user"/></svg>1 a 1</li>
+          </ul>
+
+          <div class="page-hero-actions">
+
+            <a class="btn btn-primary"
+               href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20la%20Masterclass%20Privada%201%20a%201."
+               target="_blank"
+               rel="noopener"
+               onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'masterclass_portada'});">
+              <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Consultar disponibilidad
+            </a>
+
+            <a class="btn btn-ghost" href="#programa">
+              Ver programa
+              <svg class="arrow" aria-hidden="true"><use href="#i-arrow-down"/></svg>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <figure class="hero-figure">
+          <img src="portada-masterclass.jpg"
+               alt="Masterclass privada de tatuaje con Cristhian Gularte"
+               width="1672"
+               height="941"
+               fetchpriority="high">
+        </figure>
 
       </div>
 
     </section>
 
 
-    <!-- MODALIDAD -->
-    <section style="
-      max-width:900px;
-      margin:0 auto;
-      padding:60px 5vw;
-      text-align:center;
-    ">
+    <!-- =========================
+         EXPERIENCIA
+    ========================== -->
 
-      <p class="eyebrow">MODALIDAD</p>
+    <section class="section">
 
-      <h2 style="font-size:clamp(32px,5vw,55px);">
-        6 horas · Presencial · 1 a 1
-      </h2>
+      <div class="container story">
 
-      <p style="
-        max-width:700px;
-        margin:20px auto;
-        color:#aaa2ad;
-        line-height:1.8;
-      ">
-        La masterclass se realiza presencialmente en
-        <strong>Santiago de Chile, Macul.</strong>
-      </p>
+        <div class="stat reveal">
+          <span class="stat-number">16</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
 
-      <p style="
-        max-width:700px;
-        margin:20px auto;
-        color:#aaa2ad;
-        line-height:1.8;
-      ">
-        Al finalizar la jornada recibirás un
-        <strong>certificado de asistencia.</strong>
-      </p>
+        <div class="story-copy reveal">
+
+          <p class="eyebrow">
+            Formación personalizada
+          </p>
+
+          <h2 class="display">
+            Una jornada intensiva para <em>perfeccionar tu técnica</em>
+          </h2>
+
+          <p>
+            Soy Cristhian Gularte, tatuador y artista visual con 16 años
+            de experiencia.
+          </p>
+
+          <p>
+            Durante aproximadamente seis horas trabajaremos de forma
+            individual sobre piel sintética. Te mostraré mis técnicas
+            paso a paso, practicarás bajo mi supervisión y podremos
+            corregir detalles directamente durante la jornada.
+          </p>
+
+          <p>
+            Al ser una formación privada 1 a 1, puedo observar directamente
+            tu forma de trabajar, ayudarte a corregir detalles y responder
+            tus dudas durante toda la experiencia.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROGRAMA
+    ========================== -->
+
+    <section class="section" id="programa">
+
+      <div class="container">
+
+        <div class="section-head reveal">
+
+          <p class="eyebrow">
+            Programa de la masterclass
+          </p>
+
+          <h2 class="display">
+            ¿Qué vamos a <em>trabajar?</em>
+          </h2>
+
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal"><span class="step-num" aria-hidden="true">01</span><span class="step-title">Materiales y equipamiento</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">02</span><span class="step-title">Preparación de la mesa de trabajo</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">03</span><span class="step-title">Higiene y contaminación cruzada</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">04</span><span class="step-title">Ajuste de voltaje y tipos de agujas</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">05</span><span class="step-title">Demostración de técnicas en piel sintética</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">06</span><span class="step-title">Práctica supervisada en piel sintética</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">07</span><span class="step-title">Diseño y preparación del esténcil</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">08</span><span class="step-title">Cuidados posteriores del tatuaje</span></li>
+          <li class="step reveal"><span class="step-num" aria-hidden="true">09</span><span class="step-title">Cómo fotografiar y grabar correctamente tu trabajo</span></li>
+        </ol>
+
+      </div>
 
     </section>
 
 
-    <!-- PRECIO -->
-    <section style="
-      max-width:900px;
-      margin:70px auto 100px;
-      padding:70px 5vw;
-      text-align:center;
-      background:radial-gradient(
-        circle at 50% 100%,
-        rgba(112,30,157,.16),
-        transparent 65%
-      );
-    ">
+    <!-- =========================
+         MODALIDAD
+    ========================== -->
 
-      <p class="eyebrow">MASTERCLASS PRIVADA</p>
+    <section class="section glow">
 
-      <h2 style="
-        font-size:clamp(40px,6vw,68px);
-        margin:15px 0;
-      ">
-        $239.990 CLP
-      </h2>
+      <div class="container">
 
-      <p style="
-        max-width:650px;
-        margin:20px auto;
-        color:#aaa2ad;
-        line-height:1.7;
-      ">
-        Formación presencial individual de aproximadamente 6 horas.
-      </p>
+        <div class="section-head center reveal">
 
-      <p style="
-        max-width:650px;
-        margin:20px auto 30px;
-        color:#aaa2ad;
-        line-height:1.7;
-      ">
-        Para reservar la fecha se realiza un abono de
-        <strong>$50.000 CLP</strong>, que se descuenta del valor
-        total de la masterclass.
-      </p>
+          <p class="eyebrow">
+            Modalidad
+          </p>
 
-      <a class="cta"
-         href="https://wa.me/56958181854?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20la%20Masterclass%20Privada%201%20a%201."
-         target="_blank">
-        CONSULTAR DISPONIBILIDAD
-      </a>
+          <h2 class="display">
+            6 horas · Presencial · 1 a 1
+          </h2>
+
+        </div>
+
+        <div class="info-cards">
+
+          <div class="info-card reveal">
+            <span class="icon-box"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <p>
+              La masterclass se realiza presencialmente en
+              <strong>Santiago de Chile, Macul.</strong>
+            </p>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="icon-box"><svg aria-hidden="true"><use href="#i-award"/></svg></span>
+            <p>
+              Al finalizar la jornada recibirás un
+              <strong>certificado de asistencia.</strong>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
 
     </section>
+
+
+    <!-- =========================
+         PRECIO
+    ========================== -->
+
+    <section class="section" id="reserva">
+
+      <div class="container">
+
+        <div class="cta-card center reveal">
+
+          <p class="eyebrow">
+            Masterclass privada
+          </p>
+
+          <h2 class="price">
+            $239.990 <span>CLP</span>
+          </h2>
+
+          <p class="lead">
+            Formación presencial individual de aproximadamente 6 horas.
+          </p>
+
+          <p class="note">
+            <svg aria-hidden="true"><use href="#i-calendar"/></svg>
+            <span>
+              Para reservar la fecha se realiza un abono de
+              <strong>$50.000 CLP</strong>, que se descuenta del valor
+              total de la masterclass.
+            </span>
+          </p>
+
+          <div class="cta-actions">
+
+            <a class="btn btn-primary"
+               href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20la%20Masterclass%20Privada%201%20a%201."
+               target="_blank"
+               rel="noopener"
+               onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'masterclass'});">
+              <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Consultar disponibilidad
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
 
   </main>
 
 
-  <footer>
-    © 2026 Cristhian Gularte · Masterclass de Tatuaje
+  <!-- =========================
+       PIE DE PÁGINA
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <a class="brand" href="index.html">
+          Cristhian Gularte
+        </a>
+
+        <nav class="footer-nav" aria-label="Pie de página">
+          <a href="index.html#portfolio">Portafolio</a>
+          <a href="index.html#private-experience">Private Experience</a>
+          <a href="curso-tatuaje.html">Curso online</a>
+          <a href="masterclass-tatuaje.html" aria-current="page">Masterclass 1 a 1</a>
+        </nav>
+
+        <div class="footer-social">
+
+          <a class="icon-link"
+             href="https://www.instagram.com/uruguaytattoo/"
+             target="_blank"
+             rel="noopener"
+             aria-label="Instagram">
+            <svg aria-hidden="true"><use href="#i-instagram"/></svg>
+          </a>
+
+          <a class="icon-link"
+             href="https://wa.me/56958181754?text=Hola%20Cristhian%2C%20quisiera%20consultar%20por%20un%20tatuaje"
+             target="_blank"
+             rel="noopener"
+             aria-label="WhatsApp"
+             onclick="gtag('event', 'whatsapp_click', {'ubicacion': 'footer_masterclass'});">
+            <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          </a>
+
+        </div>
+
+      </div>
+
+      <p class="footer-bottom">
+        © 2026 Cristhian Gularte · Masterclass de Tatuaje
+      </p>
+
+    </div>
+
   </footer>
 
+
 </body>
+
 </html>
